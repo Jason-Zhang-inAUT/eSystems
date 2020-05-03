@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+
+.titlepage h2 {
+     font-size: 40px;
+     color: #000000;
+     line-height: 45px;
+     font-weight: bold;
+     padding: 0;
+}
+
+.titlepage h2 img {
+     padding-right: 10px;
+}
+
+
+/** service section **/
+
+.service {
+     padding-top: 30px;
+     background: url(../images/service_bg.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+}
+
+
+
+.service .titlepage p {
+     color: #2e2f2f;
+     font-size: 17px;
+     line-height: 30px;
+     font-weight: 400;
+     padding-top: 20px;
+     padding-left: 36px;
+}
+
+.appp_l {
+     padding-left: 34px;
+}
+
+.yellow {
+     color: #f9bf16;
+}
+
+.service .service_box {
+     margin-bottom: 75px;
+}
+
+.service .service_box i img {
+     float: left;
+     padding-right: 10px;
+}
+
+.service .service_text h3 {
+     color: #000000;
+     font-size: 25px;
+     line-height: 30px;
+     font-weight: bold;
+}
+
+.service .service_text p {
+     color: #000000;
+     font-size: 17px;
+     line-height: 32px;
+     font-weight: 400;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.service .read_more {
+     margin: 0 auto;
+     display: block;
+     border: #f9bf16 solid;
+     padding: 8px 0;
+     font-size: 16px;
+     color: #f9bf16;
+}
+
+.service .read_more:hover {
+     background-color: #1d37fd;
+}
+
+
+/** end service section **/
